@@ -11,12 +11,13 @@ main section#course-content * {
     text-align: center;
 }
 
-main section#course-content h2,
-main section#course-content p {
+main section h2,
+main section p {
     margin-bottom: 24px;
 }
 
-main section#course-content h2 {
+main section#course-content h2,
+main section#professional-challenges h2 {
     text-transform: uppercase;
     font-size: 32px;
     font-weight: 700;
@@ -61,4 +62,17 @@ main section#transform-world p {
     text-transform: lowercase;
     max-width: 250px;
     text-shadow: 3px 2px #33A8DB;
+}
+
+main section#professional-challenges {
+    border-bottom: 1px solid #33A8DB80;
+}
+
+main section#professional-challenges .container {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
 }
