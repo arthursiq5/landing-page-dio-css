@@ -44,3 +44,21 @@ main section#course-content .modules-list .module {
 main section#course-content .modules-list .module span {
     color: #33A8DB;
 }
+
+main section#transform-world {
+    height: 170px;
+    background-size: cover;
+    background-image: url("../assets/images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+main section#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
