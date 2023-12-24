@@ -46,6 +46,18 @@ main section#course-content .modules-list .module span {
     color: #33A8DB;
 }
 
+@media (max-width: 700px) {
+    main section#course-content .modules-list .module {
+        flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    main section#course-content .modules-list .module span {
+        width: 100%;
+    }
+}
+
 main section#transform-world {
     height: 170px;
     background-size: cover;
@@ -55,6 +67,14 @@ main section#transform-world {
     border-bottom: 1px solid #33A8DB80;
     padding: 200px;
 }
+
+@media (max-width: 700px) {
+    main section#transform-world {
+        padding: 50px 3%;
+        background-attachment: initial;
+    }
+}
+
 
 main section#transform-world p {
     font-weight: 900;
@@ -75,4 +95,5 @@ main section#professional-challenges .container {
 
 #professional-challenges img {
     margin: 32px 0;
+    max-width: 100%;
 }

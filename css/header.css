@@ -45,3 +45,13 @@ header .banner-content button {
     font-size: 16px;
     font-weight: 900;
 }
+
+@media (max-width: 500px) {
+    header .banner-content button {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
